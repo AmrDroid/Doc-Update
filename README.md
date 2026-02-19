@@ -47,7 +47,7 @@ testable business logic.
 
 ## 1. Clone Repository
 
-git clone `<your-repo-url>`{=html} cd docupdate
+git clone `https://github.com/AmrDroid/Doc-Update` cd docupdate
 
 ## 2. Open in Android Studio
 
@@ -234,29 +234,3 @@ Compliance engine is framework-independent for maximum testability.
 -   Improve tablet and large-screen support
 -   Integrate real analytics provider
 -   Add performance profiling for large data sets
-
-------------------------------------------------------------------------
-
-# 🎥 Loom Walkthrough Covers
-
--   App walkthrough
--   Architecture decisions
--   Offline-first design
--   Compliance engine behavior
--   Tradeoffs made
--   Future improvements
-
-------------------------------------------------------------------------
-
-# ✅ Evaluation Focus
-
-This implementation prioritizes:
-
--   Clear structure and readable code
--   Separation of concerns
--   Testable business logic
--   Thoughtful offline handling
--   Practical, production-credible design
-
-The goal was to deliver a maintainable system without unnecessary
-overengineering.

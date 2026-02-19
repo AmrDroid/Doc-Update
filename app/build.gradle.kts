@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "com.impiricus.DocUpdate"
-        minSdk = 21
+        minSdk = 23
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -74,15 +74,10 @@ dependencies {
     // Images
     implementation(libs.coil.compose)
 
-    implementation("com.opencsv:opencsv:5.8")
-    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    implementation(libs.opencsv)
+    implementation(libs.androidx.datastore.preferences)
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.1")
     testImplementation("io.mockk:mockk:1.13.10")
     testImplementation("junit:junit:4.13.2")
-
-
-    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
-// To use constraintlayout in compose
-    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.1")
 }

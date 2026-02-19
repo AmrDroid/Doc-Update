@@ -57,6 +57,7 @@ class MessageDetailViewModel @Inject constructor(
             }
         }
     }
+
     fun runComplianceCheck() {
 
         val message = _state.value.message ?: return

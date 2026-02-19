@@ -68,9 +68,11 @@ fun MessageDetailContent(
 
         Button(
             onClick = onRunCompliance,
-            modifier = Modifier.fillMaxWidth() .semantics {
-                contentDescription = "Run compliance check for this message"
-            }
+            modifier = Modifier
+                .fillMaxWidth()
+                .semantics {
+                    contentDescription = "Run compliance check for this message"
+                }
 
         ) {
             Text(stringResource(R.string.run_compliance_check))

@@ -74,8 +74,6 @@ class MessageListViewModel @Inject constructor(
         applyFiltersAndMap()
     }
 
-    // 🔥 THIS is the missing function
-
     private fun applyFiltersAndMap() {
 
         val selectedPhysicianId = _state.value.selectedPhysicianId
