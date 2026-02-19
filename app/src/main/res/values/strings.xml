@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DocUpdate</string>
+    <string name="last_7_days">Last 7 Days</string>
+    <string name="last_30_days">Last 30 Days</string>
+    <string name="last_365_days">Last 365 Days</string>
+    <string name="all_time">All Time</string>
+    <string name="date_range">Date Range</string>
+    <string name="last_seven_days">Last 7 Days</string>
+    <string name="last_365_day">Last 365 Days</string>
+    <string name="last_30_day">Last 30 Days</string>
+    <string name="all_times">All Time</string>
+    <string name="all_physicians">All Physicians</string>
+    <string name="physician">Physician</string>
+    <string name="no_messages_found">No messages found.</string>
+    <string name="topic">Topic: %1$s</string>
+    <string name="sentiment">Sentiment: %1$s</string>
+    <string name="existing_compliance_tag">Existing Compliance Tag: %1$s</string>
+    <string name="none">None</string>
+    <string name="run_compliance_check">Run Compliance Check</string>
+    <string name="compliance_results">Compliance Results:</string>
+    <string name="no_rules_triggered">No rules triggered.</string>
+    <string name="rule">Rule: %1$s</string>
+    <string name="reason">Reason: %1$s</string>
+    <string name="positive">positive</string>
+    <string name="negative">negative</string>
+</resources>
